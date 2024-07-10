@@ -1,0 +1,35 @@
+Proposal for Final Project
+Objective and Motivation
+
+The aim of this project is to perform a text analysis and network analysis on the "Courses/Training Providing Listing" dataset from the NYC Open Data website. By analyzing the different courses listed and their prerequisites, we hope to provide useful insights into prep work required, the availability of grants and identify relationships between different course subjects. The analysis will ideally help students assess grant support availability and prep work needed by fields of study which would assist in making an informed decisions when selecting a program.
+Project Question
+"Which courses are most likely to have grant support, and how do different fields of study compare in terms of grant availability?"
+Data Source
+"Courses/Training Providing Listing," will be sourced from the NYC Open Data website. 
+Dataset attributes include fields such as course descriptions, grants/vouchers (if available), and requirements, which are critical factors in selecting a program.
+Work Plan
+    Data Collection and Preprocessing
+        Download the "Courses/Training Providing Listing" dataset from the NYC Open Data website.
+        Clean and preprocess the data to ensure accuracy and completeness.
+
+    Text Analysis
+        Analyze the "description" and “prerequisites” fields to establish relationships between different course subjects and criteria.
+        Categorize courses at a higher level to identify broad fields of study.
+    Network Analysis
+        Perform a network analysis to map out the relationships between courses and available grants.
+        Identify which courses have the most grant support by examining the connections between courses and grants.
+    Evaluation and Insights
+        Evaluate the results of the text and network analyses to provide insights into grant availability across different fields of study.
+        Determine how different fields rank in terms of grant support.
+    Visualization and Reporting
+Create visualizations to support analysis, including network maps to establish relationships among courses, and to differentiate courses with vouchers/grants.
+
+Concerns and Challenges
+
+    Data Quality: Ensuring the dataset is accurate and free of inconsistencies that could affect the analysis.
+    Text Analysis Complexity: Dealing with the inherent complexity and variability in course descriptions.
+    Network Analysis Accuracy: Ensuring that the network analysis accurately reflects the relationships between courses and grants.
+
+Flexibility in Planning
+
+This proposal serves as a flexible planning document. Adjustments will be made as necessary based on the progress and insights gained during the analysis to ensure the project's success.
